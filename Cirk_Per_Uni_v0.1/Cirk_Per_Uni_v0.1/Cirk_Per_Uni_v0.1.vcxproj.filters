@@ -25,6 +25,9 @@
     <Filter Include="Header Files\3_16">
       <UniqueIdentifier>{13f5e185-4e5f-4142-9f1d-d22e30a2a807}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Configuration File">
+      <UniqueIdentifier>{1a218ee3-21fe-436b-a7ee-be87961877b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -77,5 +80,16 @@
     <ClInclude Include="SetCirMatPer3_16.h">
       <Filter>Header Files\3_16</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InputParameter">
+      <Filter>Configuration File</Filter>
+    </None>
+    <None Include="MaxNL">
+      <Filter>Configuration File</Filter>
+    </None>
+    <None Include="SaveLastPerm">
+      <Filter>Configuration File</Filter>
+    </None>
   </ItemGroup>
 </Project>

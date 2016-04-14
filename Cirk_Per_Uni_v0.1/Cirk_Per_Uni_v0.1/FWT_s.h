@@ -47,3 +47,22 @@ void FastWalshTransSbox_row(int nsbox)
 	j=j*2;
 	}
 }
+
+void FastWalshTransSbox_row16(int nsbox)
+{
+	int temp = 0, j = 1;
+
+	while (j<nsbox)
+	{
+		for (int i = 0; i<nsbox; i++){
+			if ((i&j) == 0)
+			{
+				temp = PTT16[i];
+
+				PTT16[i] = (PTT16[i] + PTT16[i + j]);
+				PTT16[i + j] = (-PTT16[i + j] + temp);
+			}
+		}
+		j = j * 2;
+	}
+}

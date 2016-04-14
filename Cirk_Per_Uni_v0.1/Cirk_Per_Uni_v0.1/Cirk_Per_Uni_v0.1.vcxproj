@@ -97,6 +97,11 @@
     <ClInclude Include="SetCirMatPer51.h" />
     <ClInclude Include="SetPar.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="InputParameter" />
+    <None Include="MaxNL" />
+    <None Include="SaveLastPerm" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

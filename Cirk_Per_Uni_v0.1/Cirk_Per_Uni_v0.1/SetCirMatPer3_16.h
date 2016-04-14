@@ -138,7 +138,7 @@ void InverzSTT3_16()
 	{
 		for (int j = 1; j<sizeSbox; j++)
 		{
-			STT1_256[i][InvPerm3_16[j]] = STT3_16[i][j];
+			STT1_3_16[i][InvPerm3_16[j]] = STT3_16[i][j];
 			//	cout << InvPerm[j]<<" ";
 		}
 		//	cout<<"\n";
@@ -214,39 +214,39 @@ void CiklicMatrixPermute3_16()
 	//==================================================================================
 
 	//************************Print the STT******************************
-	//cout << "\n\n";
-	//for(int j=0; j<binary; j++)
-	//{  
-	//	for(int i = 0; i<sizeSbox; i++)
-	//	{
-	//	//cout << i <<":"<< STT[j][i] << " ";
-	//	cout << STT[j][i] << " ";
-	//	}
-	//	cout << "\n";
-	//}
+	cout << "\nPrint the STT:\n";
+	for(int j=0; j<binary; j++)
+	{  
+		for(int i = 0; i<sizeSbox; i++)
+		{
+		//cout << i <<":"<< STT[j][i] << " ";
+		cout << STT3_16[j][i] << " ";
+		}
+		cout << "\n";
+	}
 	//********************************************************************
 
 	//============================================================================
 	//AllOtherFunction(1); //################# Function call****3-th paramether is mark (1-right, 2-inversion)
-	TT_PTT256(sizeSbox, binary, 1, tvFix3_16);
+	TT_PTT16(sizeSbox, binary, 1, tvFix3_16);
 
 	InverzSTT3_16(); //Inverse STT, use inverse permutation array
 
 	//************************Print the STT*******************************
-	//cout << "\n\n";
-	//for(int j=0; j<binary; j++)
-	//{  
-	//	for(int i = 0; i<sizeSbox; i++)
-	//	{
-	//	//cout << i <<":"<< STT[j][i] << " ";
-	//	cout << STT[j][i] << " ";
-	//	}
-	//	cout << "\n";
-	//}
+	cout << "\nPrint the STT Invers:\n";
+	for(int j=0; j<binary; j++)
+	{  
+		for(int i = 0; i<sizeSbox; i++)
+		{
+		//cout << i <<":"<< STT[j][i] << " ";
+		cout << STT3_16[j][i] << " ";
+		}
+		cout << "\n";
+	}
 	//********************************************************************
 
 	//AllOtherFunction(2); //################# Function call****3-th paramether is mark (1-right, 2-inversion)
-	TT_PTT256(sizeSbox, binary, 2, tvFix3_16);
+	TT_PTT16(sizeSbox, binary, 2, tvFix3_16);
 
 	//==============================================================================
 	SavePerm(); //Save every (x) permutation put mark of the RANK permutation //print of the display

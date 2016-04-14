@@ -39,3 +39,25 @@ int reduceCPU_PTT_All(int nvals)
 }
 
 
+int reduceCPU_PTT16(int nvals)
+{
+	int cmax = PTT16[0];
+
+	for (int i = 1; i<nvals; i++)
+	{
+		cmax = max(abs(PTT16[i]), cmax);
+	}
+	return cmax;
+}
+
+int reduceCPU_PTT_All16(int nvals)
+{
+	int cmax = PTT_ALL_LIN16[0];
+
+	for (int i = 1; i<nvals; i++)
+	{
+		cmax = max(abs(PTT_ALL_LIN16[i]), cmax);
+	}
+	return cmax;
+}
+

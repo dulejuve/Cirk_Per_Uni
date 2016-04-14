@@ -162,6 +162,6 @@ void main3_16()
 	SetMatCir3_16(); // Function Set matrix circulante
 	SetPerInvVect3_16(); //Set Inversan Permutation
 	SetInputPar();
-	//SetCirMatPer3_16();
+	SetCirMatPer3_16();
 	EndOfProgram();
 }
