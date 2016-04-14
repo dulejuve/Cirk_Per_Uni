@@ -13,10 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\15">
+      <UniqueIdentifier>{23e06dc7-aee8-43a7-b6cf-afac2b87817f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\17">
+      <UniqueIdentifier>{78da3dc8-0880-45bd-8d6e-23ac6351b48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\51">
+      <UniqueIdentifier>{3e7b2f50-75e2-4b2f-9c02-015e044ab02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3_16">
+      <UniqueIdentifier>{13f5e185-4e5f-4142-9f1d-d22e30a2a807}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SetPar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IOFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FWT_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputResultFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PTT_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxEle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header15.h">
+      <Filter>Header Files\15</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCirMatPer15.h">
+      <Filter>Header Files\15</Filter>
+    </ClInclude>
+    <ClInclude Include="Header17.h">
+      <Filter>Header Files\17</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCirMatPer17.h">
+      <Filter>Header Files\17</Filter>
+    </ClInclude>
+    <ClInclude Include="Header51.h">
+      <Filter>Header Files\51</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCirMatPer51.h">
+      <Filter>Header Files\51</Filter>
+    </ClInclude>
+    <ClInclude Include="Header3_16.h">
+      <Filter>Header Files\3_16</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCirMatPer3_16.h">
+      <Filter>Header Files\3_16</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

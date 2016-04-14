@@ -80,6 +80,23 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FWT_s.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="Header15.h" />
+    <ClInclude Include="Header17.h" />
+    <ClInclude Include="Header3_16.h" />
+    <ClInclude Include="Header51.h" />
+    <ClInclude Include="IOFile.h" />
+    <ClInclude Include="MaxEle.h" />
+    <ClInclude Include="OutputResultFunc.h" />
+    <ClInclude Include="PTT_s.h" />
+    <ClInclude Include="SetCirMatPer15.h" />
+    <ClInclude Include="SetCirMatPer17.h" />
+    <ClInclude Include="SetCirMatPer3_16.h" />
+    <ClInclude Include="SetCirMatPer51.h" />
+    <ClInclude Include="SetPar.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
