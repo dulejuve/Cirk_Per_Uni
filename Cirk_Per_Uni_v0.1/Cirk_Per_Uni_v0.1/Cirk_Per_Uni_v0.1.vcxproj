@@ -100,6 +100,14 @@
   <ItemGroup>
     <None Include="InputParameter" />
     <None Include="MaxNL" />
+    <None Include="resmat_15" />
+    <None Include="resmat_17" />
+    <None Include="resmat_3_16" />
+    <None Include="resmat_51" />
+    <None Include="resper_15" />
+    <None Include="resper_17" />
+    <None Include="resper_3_16" />
+    <None Include="resper_51" />
     <None Include="SaveLastPerm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

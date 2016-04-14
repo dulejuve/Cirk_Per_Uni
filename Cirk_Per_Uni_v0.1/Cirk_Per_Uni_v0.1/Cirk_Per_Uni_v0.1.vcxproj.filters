@@ -28,6 +28,9 @@
     <Filter Include="Configuration File">
       <UniqueIdentifier>{1a218ee3-21fe-436b-a7ee-be87961877b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Cyclic matrix">
+      <UniqueIdentifier>{4ac8d11d-31e1-4b76-a683-91c14ee77168}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -90,6 +93,30 @@
     </None>
     <None Include="SaveLastPerm">
       <Filter>Configuration File</Filter>
+    </None>
+    <None Include="resmat_3_16">
+      <Filter>Cyclic matrix</Filter>
+    </None>
+    <None Include="resmat_15">
+      <Filter>Cyclic matrix</Filter>
+    </None>
+    <None Include="resmat_17">
+      <Filter>Cyclic matrix</Filter>
+    </None>
+    <None Include="resmat_51">
+      <Filter>Cyclic matrix</Filter>
+    </None>
+    <None Include="resper_3_16">
+      <Filter>Cyclic matrix</Filter>
+    </None>
+    <None Include="resper_15">
+      <Filter>Cyclic matrix</Filter>
+    </None>
+    <None Include="resper_17">
+      <Filter>Cyclic matrix</Filter>
+    </None>
+    <None Include="resper_51">
+      <Filter>Cyclic matrix</Filter>
     </None>
   </ItemGroup>
 </Project>
